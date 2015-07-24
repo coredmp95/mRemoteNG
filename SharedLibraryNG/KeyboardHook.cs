@@ -147,6 +147,9 @@ namespace SharedLibraryNG
             var result = 0;
 
             foreach (var notificationEntry in NotificationEntries)
+            // It error code is Null, have to ignore the exception
+            // For some unknow raison, sometime GetFocuseWindows throw an exception
+            // Mainly when the station is unlocked, or after an admin password is asked
                 try
                 {
                     if (GetFocusWindow() == notificationEntry.WindowHandle && notificationEntry.KeyCode == key.vkCode)
