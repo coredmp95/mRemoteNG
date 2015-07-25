@@ -2,7 +2,7 @@
 
 setlocal enabledelayedexpansion
 
-set VERSIONTAG=
+set VERSIONTAG=b
 
 set PATH=%PATH%
 
