@@ -293,6 +293,7 @@ Namespace UI
                 Try
                     lblCopyright.Text = My.Application.Info.Copyright
 
+
                     Me.lblVersion.Text = "Version " & My.Application.Info.Version.ToString
 
                     FillLinkLabel(llblFAMFAMFAM, My.Language.strFAMFAMFAMAttribution, My.Language.strFAMFAMFAMAttributionURL)

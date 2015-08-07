@@ -1,6 +1,6 @@
 1.73 Beta 3 ( 2015-07-24 FDI)
   Modify by Fabrice Didierjean ( coredmp95@gmail.com )
-  Correct random reboot after unlocking session
+  Correct random crash after unlocking session
   
 1.73 Beta 2 ():
   Fixed issue MR-619 - Keyboard shortcuts stop working after locking the screen with Win+L
